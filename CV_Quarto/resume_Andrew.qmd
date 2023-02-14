@@ -1,0 +1,207 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+<!-- TITLE -->
+\begin{huge}\begin{center}{\bf ANDREW ITHURBURN}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+\begin{center}a.ithurburn@sms.ed.ac.uk ∙ \href{https://aithurburn.github.io/me/}{Website} ∙ \href{https://www.linkedin.com/in/andrew-ithurburn/}{LinkedIn} ∙ \href{https://github.com/aithurburn}{Github}
+\end{center}
+\vspace{15pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf The University of Edinburgh}\end{flushleft}
+    \begin{flushright}Sep 2019-Present\end{flushright}
+    \begin{flushright}Edinburgh, Scotland\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Psychology PhD\end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+  \textit{Dissertation: The Psychology of Risky Sexual Decisions: Power Desires, Attachment Style, and Sexual Choices}
+\end{large}
+
+\vspace{0.2cm}
+
+<!-- EDUCATION: 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf California State University, Chico}\end{flushleft}
+    \begin{flushright}Chico, California, United States\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Master of the Arts: Option in Psychological Science \end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+  \textit{Thesis: \href{https://www.csuchico.edu/psy/_assets/documents/erm-repository/andrewithurburn_erm.pdf}{Thinking of the future: Effects of episodic future thinking on sexual decision making}}
+  \begin{flushright}Fall 2017-May 2019\end{flushright}
+\end{large}
+\vspace{3pt}
+
+<!-- EDUCATION: 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf California State University, Chico}\end{flushleft}
+    \begin{flushright}Chico, California, United States\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Bachelor of the Arts: Psychology \end{flushleft}
+    \begin{flushleft}Minor: Biological Sciences\end{flushleft}
+    \begin{flushright}Autumn 2012-Spring 2016\end{flushright}
+  \end{multicols}
+  \vspace{-0.25cm}
+  
+\end{large}
+\vspace{3pt}
+
+<!-- SKILLS -->
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+**Languages and Tools** - Python, R, Javascript, Github Actions, Quarto  
+
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.dynata.com/}{Dynata}}\end{flushleft}
+    \begin{flushright}Aug 2022-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Scientist, Ad Solutions}\end{flushleft}
+    \begin{flushright}Herndon, VA\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Built diff-in-diff and multi-touch attribution **model codebase** in Python(OOP) for Ad Data Science Team and spec requesting these studies for Research Team. This code base has saved 100+ hours and brought in $100,000s in revenue.
+
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://morningconsult.com/}{Morning Consult}}\end{flushleft}
+    \begin{flushright}Nov 2021-Aug 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Data Analyst}\end
+    {flushleft}\begin{flushright}Washington, D.C.\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* In conjunction with other data scientists on a large project, developed and performed statistical tests on time series data in 17 surveys of 5 countries in over 200 tables
+* Led project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists), saving company $10,000s in time and errors
+* Over 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://echeloninsights.com/}{Echelon Insights}}\end{flushleft}
+    \begin{flushright}April 2020-Nov 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Research Analyst}\end{flushleft}
+    \begin{flushright}Alexandria, VA\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Led in modeling projects predicting election turnout for entire U.S. in 2022, phone response rates, etc.
+* Wrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS
+* Using R Shiny, built a codeless-crosstab tool for company’s research team
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 4TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://csed.byu.edu/}{Center for Elections and Democracy}}\end{flushleft}
+    \begin{flushright}Dec 2018-April 2020\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Undergraduate Research Fellow}\end{flushleft}
+    \begin{flushright}Provo, UT\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Designed and executed multiple survey experiments in original research projects
+* Mentored 60+ students in solving econometrics problems in weekly office hours
+* Visualized data using R creating 50+ informative figures for the AFS official report, news outlets, and professor’s projects
+
+\vspace{7pt}
+
+<!-- PERSONAL PROJECTS : 1ST BULLET -->
+\begin{large}
+  {\bf PERSONAL PORTFOLIO PROJECTS}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{\href{https://github.com/acbass49/predicting_bookings}{Predicting AirBnB Bookings with Apache Spark}}\end{flushleft}
+    \begin{flushright}December 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+* Coded a full data-pipeline using **ONLY Apache Spark** (PySpark): wrangling and joining data, EDA, feature engineering, model selection with a grid search (Lasso, Ridge, Naive Bayes, Random Forest, GBT), model evaluation, and full project write-up and analysis
+
+\vspace{7pt}
+
+<!-- PERSONAL PROJECTS : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{\href{https://github.com/acbass49/urban_audio_classification}{CNN Classification of Urban Sounds}}\end{flushleft}
+    \begin{flushright}December 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+* Extracted features such as MFCC, Chromagram, Spectral Contrast from 8000+ audio clips using Python
+* Estimated models custom and popular CNN architectures (AlexNet, GoogLeNet, etc.) using Tensorflow and Keras
+* Full project write-up and code on Github
+
+\vspace{7pt}
+
+<!-- PERSONAL PROJECTS : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{\href{https://alexbass.me/posts/bayesian_county/}{Bayesian County-Level School Shooting Analysis}}\end{flushleft}
+    \begin{flushright}August 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+* Compared and estimated several Bayesian Regression models with PYMC3 in Python. Ultimately, used hierarchal negative binomial model to predict shootings and make inferences about gun laws
