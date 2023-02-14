@@ -22,6 +22,8 @@ format:
         \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
         \setlength{\columnsep}{3em}
 ---
+
+
 <!-- TITLE -->
 \begin{huge}\begin{center}{\bf ANDREW ITHURBURN}\end{center}\end{huge}
 
